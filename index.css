@@ -1,7 +1,17 @@
-.wrap {
+#wrap {
   text-align: center;
 }
 
-.wrap-center {
+#wrap-center {
   width: 1280px;
+  background-color: yellow;
+}
+
+#hamburger {
+  margin-top: 18px;
+  background-color: antiquewhite;
+}
+
+#main {
+  height: 2000px;
 }
