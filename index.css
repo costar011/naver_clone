@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #wrap {
   text-align: center;
 }
@@ -5,11 +10,14 @@
 #wrap-center {
   width: 1280px;
   background-color: yellow;
+  display: inline-block;
 }
 
-#hamburger {
+#header-hamburger {
   margin-top: 18px;
-  background-color: antiquewhite;
+  background-image: url('./sp_main.png');
+  width: 46px;
+  height: 46px;
 }
 
 #main {
