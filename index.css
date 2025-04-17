@@ -3,16 +3,16 @@
   padding: 0;
 }
 
-#wrap {
+.wrap {
   text-align: center;
 }
 
-#wrap-center {
+.wrap .wrap-center {
   width: 1280px;
   background-color: yellow;
 }
 
-#header-hamburger {
+.wrap .wrap-center .header .header-hamburger {
   margin-top: 18px;
   display: inline-block;
   padding: 10px;
@@ -20,7 +20,7 @@
   border: none;
 }
 
-#header-hamburger > div {
+.wrap .wrap-center .header .header-hamburger > div {
   background-image: url('./sp_main.png');
   width: 26px;
   height: 26px;
@@ -29,6 +29,6 @@
   background-position: -335px -284px;
 }
 
-#main {
+.wrap .wrap-center .main {
   height: 2000px;
 }
